@@ -1,0 +1,66 @@
+body {
+    background-color: aliceblue;
+}
+h3 {
+    text-align: center;
+    padding: 5px;
+}
+h5 {
+    text-align: center;
+}
+input {
+    padding: 5px;
+    margin: 5px;
+}
+button {
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+select {
+    padding: 5px;
+}
+.row {
+    margin-top: 10px;
+}
+.col-sm-6 {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+.col-sm-10 {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+#wrapper {
+    overflow:hidden;
+    overflow-y:scroll;
+    max-height:500px;
+ }
+td {
+    font-size: large;
+}
+button:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
+input:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
+select:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
+#heightDisplay {
+    cursor: default;
+}
+#loadPlayers:disabled {
+    display: none;
+}
